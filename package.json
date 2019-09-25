@@ -1,5 +1,5 @@
 {
-  "name": "MyAwesomeProject",
+  "name": "myawesomeproject",
   "version": "0.0.1",
   "private": true,
   "license": "MIT",
@@ -11,6 +11,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "lodash": "^4.17.15",
     "react": "16.9.0",
     "react-native": "0.61.0-rc.3"
   },
@@ -26,5 +27,16 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/animmore/react-native-firstproject-solvecare.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/animmore/react-native-firstproject-solvecare/issues"
+  },
+  "homepage": "https://github.com/animmore/react-native-firstproject-solvecare#readme",
+  "description": ""
 }
